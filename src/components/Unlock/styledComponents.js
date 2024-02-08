@@ -9,6 +9,12 @@ export const AppContainer = styled.div`
   height: 100vh;
 `
 
+export const ImageAndTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 export const Image = styled.img`
   height: 100px;
   @media screen and (min-width: 768px) {
